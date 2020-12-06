@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSansReg;
+  src: url(fonts/GillSans.ttc);
+}
+
+@font-face {
+  font-family: GillSansItalic;
+  src: url(fonts/GillSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: GillSansLight;
+  src: url(fonts/GillSans-light.ttf);
+}
+
+@font-face {
+  font-family: CaveatReg;
+  src: url(fonts/Caveat-Regular.ttf);
+}
+
+@font-face {
+  font-family: CaveatBold;
+  src: url(fonts/Caveat-Bold.ttf);
+}
+
+.site {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}

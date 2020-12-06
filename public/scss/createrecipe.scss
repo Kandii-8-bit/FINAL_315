@@ -1,0 +1,70 @@
+.create-content {
+  min-height: 100%;
+  background-color: #ffffff;
+  display: flex;
+
+  .welcome-text {
+    width: 351px;
+    height: 32px;
+    font-size: 25px;
+    font-family: CaveatReg;
+    // font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 150px;
+    margin-left: 100px;
+    // background-color: darkturquoise;
+  }
+
+  .form-content {
+    margin-top: 250px;
+
+    .recipe-create {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+
+      .section-title {
+        display: flex;
+        position: relative;
+        right: 415px;
+        font-size: 20px;
+        font-family: GillSansReg;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 20px;
+
+        input {
+          width: 980px;
+          border-right: hidden;
+          border-left: hidden;
+          border-top: hidden;
+          border-bottom: solid #000000;
+          font-family: GillSansReg;
+        }
+      }
+
+      ::placeholder {
+        font-family: GillSansReg;
+        // color: #000000;
+      }
+
+      .sub-btn {
+        width: 422px;
+        height: 52px;
+        box-shadow: 5px 9px 11px 2px rgba(0, 0, 0, 0.5);
+        border-radius: 50px;
+        background-color: #efa7a7;
+        border-right: hidden;
+        border-left: hidden;
+        border-top: hidden;
+        border-bottom: hidden;
+        font-family: CaveatReg;
+        font-size: 25px;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}

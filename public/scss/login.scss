@@ -1,0 +1,121 @@
+.loginContent {
+  height: 100%;
+  background-color: #ffd972;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+
+  h1 {
+    font-family: GillSansReg;
+  }
+
+  .signup-textwrap {
+    height: 100px;
+    width: 200px;
+    // background-color: chartreuse;
+
+    p {
+      font-family: GillSansItalic;
+    }
+  }
+
+  .loginform-wrap {
+    margin-top: 100px;
+
+    .login {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+
+      label {
+        display: block;
+        margin-bottom: 20px;
+
+        input {
+          width: 250px;
+          background-color: #ffd972;
+          border-right: hidden;
+          border-left: hidden;
+          border-top: hidden;
+          border-bottom: solid #000000;
+          font-family: GillSansReg;
+        }
+      }
+
+      ::placeholder {
+        font-family: GillSansReg;
+        color: #000000;
+      }
+
+      .login-btn {
+        width: 209px;
+        height: 52px;
+        box-shadow: 5px 9px 11px 2px rgba(0, 0, 0, 0.5);
+        background-color: #ffd972;
+        font-size: 25px;
+        font-family: CaveatReg;
+        //mockbutton
+        // padding-top: 10px;
+        // text-align: center;
+        // cursor: pointer;
+        //mockbutton
+        letter-spacing: 2px;
+        color: #000000;
+        border-right: hidden;
+        border-left: hidden;
+        border-top: hidden;
+        border-bottom: hidden;
+        border-radius: 50px;
+      }
+    }
+  }
+
+  .signform-wrap {
+    margin-bottom: 150px;
+
+    .signup {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+
+      label {
+        display: block;
+        margin-bottom: 20px;
+
+        input {
+          width: 250px;
+          background-color: #ffd972;
+          border-right: hidden;
+          border-left: hidden;
+          border-top: hidden;
+          border-bottom: solid #000000;
+          font-family: GillSansReg;
+        }
+      }
+
+      ::placeholder {
+        font-family: GillSansReg;
+        color: #000000;
+      }
+
+      .signup-btn {
+        width: 250px;
+        height: 52px;
+        box-shadow: 5px 9px 11px 2px rgba(0, 0, 0, 0.5);
+        background-color: #ffd972;
+        font-size: 25px;
+        font-family: CaveatReg;
+        letter-spacing: 2px;
+        color: #000000;
+        border-right: hidden;
+        border-left: hidden;
+        border-top: hidden;
+        border-bottom: hidden;
+        border-radius: 50px;
+      }
+    }
+  }
+}

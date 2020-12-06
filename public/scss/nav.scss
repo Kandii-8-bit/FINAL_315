@@ -1,0 +1,90 @@
+nav {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+
+  .jcimage {
+    // padding-right: 50px;
+  }
+
+  .links {
+    width: 650px;
+    height: 80px;
+    text-decoration: none;
+    display: flex;
+    margin-left: auto;
+    justify-content: space-around;
+
+    a {
+      font-size: 25px;
+      color: #000000;
+      font-family: CaveatReg;
+      margin: auto;
+      text-decoration: none;
+      letter-spacing: 2px;
+    }
+
+    .loginbtn {
+      width: 158px;
+      height: 52px;
+      color: #000000;
+      box-shadow: 5px 9px 11px 2px rgba(0, 0, 0, 0.5);
+      border-radius: 50px;
+      display: flex;
+      margin-top: 12px;
+      background-color: #ffd972;
+    }
+  }
+
+  .navicon {
+    width: 50px;
+    height: 50px;
+    // background-color: cadetblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    cursor: pointer;
+  }
+}
+
+.linksMobileView {
+  display: flex;
+}
+
+.navMobileView {
+  width: 50%;
+  height: 80%;
+}
+
+@media all and (max-width: 1280px) {
+  nav {
+    height: 50px;
+    width: 50px;
+    display: flex;
+
+    .links {
+      width: 50%;
+      height: 80%;
+      margin: auto;
+      flex-direction: column;
+      display: none;
+    }
+
+    .navicon {
+      display: flex;
+      flex-direction: column;
+
+      .line {
+        width: 100%;
+        height: 10px;
+        background-color: black;
+        margin: auto;
+        border-radius: 3px;
+      }
+    }
+  }
+}
